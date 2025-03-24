@@ -11,7 +11,7 @@ Go-Cards is a terminal-based quiz application that allows users to answer multip
 ### `go install`:
 
 ```bash
-go install github.com/mashfeii/go-cards@latest
+go install github.com/mashfeii/go-cards@main
 ```
 
 ### Manual Build:
