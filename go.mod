@@ -1,4 +1,4 @@
-module github.com/mashfeii/flash_cards
+module github.com/mashfeii/go-cards
 
 go 1.24.1
 
