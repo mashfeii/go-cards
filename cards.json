@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does the `FROM` instruction do in a Dockerfile?",
+    "options": [
+      "Specifies the base image for the Docker image",
+      "Executes a command during the build process",
+      "Sets environment variables for the container",
+      "Defines the default command to run when the container starts"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why should you copy `requirements.txt` before other files in a Dockerfile?",
+    "options": [
+      "To leverage Docker’s build cache and speed up builds",
+      "To ensure the container starts faster",
+      "To reduce the image size automatically",
+      "To make the Dockerfile easier to read"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the primary difference between `COPY` and `ADD` in a Dockerfile?",
+    "options": [
+      "`ADD` can download remote files and extract tarballs, while `COPY` cannot",
+      "`COPY` is used for remote files, `ADD` for local files",
+      "`ADD` is faster than `COPY`",
+      "`COPY` requires a base image, `ADD` does not"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In Docker Compose, what does the `depends_on` key ensure?",
+    "options": [
+      "A service waits for another to start before launching",
+      "Two services share the same network automatically",
+      "A service uses the same volume as another",
+      "A service inherits environment variables from another"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of a Docker volume?",
+    "options": [
+      "To persist data managed by Docker across container lifecycles",
+      "To temporarily store data in memory",
+      "To bind a host directory to a container",
+      "To cache build layers during image creation"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In the lab’s FastAPI setup, what role does Nginx play?",
+    "options": [
+      "It load balances requests between multiple FastAPI instances",
+      "It serves as the database for the application",
+      "It builds the Docker images for the app",
+      "It monitors container health"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the `EXPOSE` instruction in a Dockerfile indicate?",
+    "options": [
+      "It documents the ports a container listens on",
+      "It automatically maps ports to the host",
+      "It restricts network access to specific ports",
+      "It defines the container’s entrypoint"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In Docker Compose, how are environment variables typically provided securely?",
+    "options": [
+      "Through a `.env` file loaded by Docker Compose",
+      "Hardcoded in the `docker-compose.yml` file",
+      "Passed via the `EXPOSE` instruction",
+      "Defined in the Dockerfile’s `CMD`"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is a key limitation of Docker Compose mentioned in the lecture?",
+    "options": [
+      "It is limited to managing containers on a single host",
+      "It cannot define volumes or networks",
+      "It requires a complex daemon to run",
+      "It does not support declarative configuration"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In the lab, what command builds and starts the FastAPI application?",
+    "options": [
+      "docker-compose up --build -d",
+      "docker run -d webapp",
+      "docker-compose start",
+      "docker build -t fastapi"
+    ],
+    "correct": 0
+  }
+]
