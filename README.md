@@ -8,6 +8,12 @@ Go-Cards is a terminal-based quiz application that allows users to answer multip
 
 ## Installation
 
+### `go install`:
+
+```bash
+go install github.com/mashfeii/go-cards@latest
+```
+
 ### Manual Build:
 
 - Clone/download the main.go file.
@@ -20,7 +26,8 @@ go build -o go-cards main.go
 
 ## Usage
 
-Question File Structure
+### Question File Structure
+
 Create a JSON file (e.g., `cards.json`) with this format:
 
 ```json
@@ -49,26 +56,26 @@ go-cards -path=my_questions.json
 
 ### Controls
 
-- __Navigation__:
+- **Navigation**:
   `Up`/`Down` arrows or `j`/`k` to move between options.
-- __Submit Answer__:
+- **Submit Answer**:
   `Enter` or `Space`.
-- __Exit__:
+- **Exit**:
   `Ctrl+C` or `Esc`.
-- __Color Indicators__:
+- **Color Indicators**:
   - 🟢 Green: Correct answer (shown after submission).
   - 🔴 Red: Incorrectly selected option (marked with a red icon).
   - ⚪ Gray: Previously wrong selections.
 
 ## Troubleshooting
 
-- __Installation issues__:
+- **Installation issues**:
   - Ensure `GOPATH/bin` is in your `PATH` to run `go-cards` globally.
   - Run `go mod tidy` to install dependencies (`tcell`, `color`).
-- __JSON errors__:
+- **JSON errors**:
   - Validate your JSON file structure using tools like `JSONLint`.
-- __Key bindings not working__:
+- **Key bindings not working**:
   - Use `Enter` instead of `Space`.
   - Ensure your terminal emulator supports keyboard inputs (e.g., not some web-based terminals).
-- __No colors displayed__:
+- **No colors displayed**:
   - Enable ANSI color support in your terminal settings.
