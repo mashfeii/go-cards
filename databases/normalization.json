@@ -1,0 +1,167 @@
+[
+  {
+    "question": "What is the primary purpose of database normalization?",
+    "options": [
+      "Eliminate data redundancy",
+      "Improve query performance",
+      "Reduce storage costs",
+      "Enhance data security"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which normal form requires that all non-prime attributes are fully functionally dependent on the primary key?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "correct": 1
+  },
+  {
+    "question": "A table is in 3NF if it is in 2NF and has no:",
+    "options": [
+      "Partial dependencies",
+      "Transitive dependencies",
+      "Multi-valued dependencies",
+      "Repeating groups"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which anomaly occurs when deleting a project also deletes all assigned employees?",
+    "options": [
+      "Insertion anomaly",
+      "Deletion anomaly",
+      "Update anomaly",
+      "Referential anomaly"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In BCNF, every functional dependency ( A to B ) must satisfy:",
+    "options": [
+      "A is a superkey",
+      "B is a prime attribute",
+      "A is a candidate key",
+      "B is a non-prime attribute"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which normal form addresses multi-valued dependencies?",
+    "options": ["2NF", "3NF", "BCNF", "4NF"],
+    "correct": 3
+  },
+  {
+    "question": "A relation with attributes (StudentID, Course, Professor) where Professor → Course violates:",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "correct": 3
+  },
+  {
+    "question": "Which guideline ensures no spurious tuples after a natural join?",
+    "options": [
+      "Clear semantics of attributes",
+      "Lossless join decomposition",
+      "Minimal NULL values",
+      "Avoidance of transitive dependencies"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A table with composite primary key (OrderID, ProductID) and Quantity violates 2NF if:",
+    "options": [
+      "Quantity depends on OrderID alone",
+      "Quantity depends on ProductID alone",
+      "Quantity depends on both OrderID and ProductID",
+      "All attributes are atomic"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which is NOT a rule for 1NF?",
+    "options": [
+      "Atomic attributes",
+      "Unique column names",
+      "No transitive dependencies",
+      "Order of rows does not matter"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A relation with (StudentID, State, Country) where State → Country is in:",
+    "options": ["2NF but not 3NF", "3NF", "BCNF", "1NF only"],
+    "correct": 0
+  },
+  {
+    "question": "Which dependency type is resolved by 3NF?",
+    "options": [
+      "Partial dependency",
+      "Transitive dependency",
+      "Multi-valued dependency",
+      "Join dependency"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A superkey is defined as:",
+    "options": [
+      "A minimal set of attributes that uniquely identifies a tuple",
+      "Any set of attributes that uniquely identifies a tuple",
+      "A foreign key in another table",
+      "A candidate key with no NULL values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which normal form is violated if a table has repeating groups?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "correct": 0
+  },
+  {
+    "question": "A relation in BCNF must also be in:",
+    "options": ["1NF", "2NF", "3NF", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which is an example of a partial dependency?",
+    "options": [
+      "StudentID → Name",
+      "(StudentID, Course) → Grade, where StudentID → Name",
+      "Course → Instructor",
+      "StudentID → Nationality via Department"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A relation with (BookTitle, Author, AuthorAffiliation) where Author → AuthorAffiliation violates:",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "correct": 2
+  },
+  {
+    "question": "Which statement about 4NF is true?",
+    "options": [
+      "It requires elimination of transitive dependencies",
+      "It addresses multi-valued dependencies",
+      "It is weaker than BCNF",
+      "It allows nested relations"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Denormalization is used to:",
+    "options": [
+      "Reduce redundancy",
+      "Improve query performance",
+      "Enforce BCNF",
+      "Eliminate NULL values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is a prime attribute?",
+    "options": [
+      "An attribute part of any candidate key",
+      "An attribute with no NULL values",
+      "A foreign key",
+      "An attribute dependent on the primary key"
+    ],
+    "correct": 0
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "question": "Which algorithm is used for external sorting in databases?",
+    "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Insertion Sort"],
+    "correct": 1
+  },
+  {
+    "question": "What is the primary advantage of using a stored procedure?",
+    "options": [
+      "Reduces network round trips",
+      "Automatically creates indexes",
+      "Encrypts data at rest",
+      "Generates ER diagrams"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which index type is most efficient for range queries?",
+    "options": ["Hash Index", "B-tree Index", "GIN Index", "GIST Index"],
+    "correct": 1
+  },
+  {
+    "question": "In a nested-loop join, which file should be the outer loop for optimal performance?",
+    "options": [
+      "The larger file",
+      "The smaller file",
+      "The file with more indexes",
+      "The file with NULL values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the EXPLAIN ANALYZE command in PostgreSQL provide?",
+    "options": [
+      "Estimated execution plan only",
+      "Actual execution time and row counts",
+      "Index creation scripts",
+      "Database schema validation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which normal form addresses multi-valued dependencies?",
+    "options": ["2NF", "3NF", "BCNF", "4NF"],
+    "correct": 3
+  },
+  {
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "Filter rows before aggregation",
+      "Filter groups after aggregation",
+      "Sort query results",
+      "Join multiple tables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which heuristic rule prioritizes performing selection operations early?",
+    "options": [
+      "Reduce redundant data",
+      "Push projections downward",
+      "Minimize NULL values",
+      "Combine Cartesian products with selections"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "A clustering index is defined on which type of attribute?",
+    "options": [
+      "Primary key",
+      "Foreign key",
+      "Non-key attribute",
+      "Unique attribute"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does a sparse index contain?",
+    "options": [
+      "Entries for every search key value",
+      "Entries for some search key values",
+      "Only NULL values",
+      "Composite keys"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is optimized using semi-join?",
+    "options": ["NOT EXISTS", "EXISTS", "BETWEEN", "LIKE"],
+    "correct": 1
+  },
+  {
+    "question": "What is the main cost factor in large database queries?",
+    "options": [
+      "CPU computation",
+      "Disk I/O",
+      "Network latency",
+      "Memory allocation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which PostgreSQL index type is best for full-text search?",
+    "options": ["B-tree", "Hash", "GIN", "GIST"],
+    "correct": 2
+  },
+  {
+    "question": "What is the purpose of the RETURN statement in a PL/pgSQL function?",
+    "options": [
+      "Terminate the function",
+      "Return a value to the caller",
+      "Rollback transactions",
+      "Create a temporary table"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which query optimization step eliminates contradictory conditions?",
+    "options": [
+      "Normalization",
+      "Semantic analysis",
+      "Query restructuring",
+      "Cost estimation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does a row-level trigger do?",
+    "options": [
+      "Executes once per statement",
+      "Executes once per affected row",
+      "Ignores transaction boundaries",
+      "Requires superuser privileges"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which join method requires sorted input relations?",
+    "options": [
+      "Nested-loop join",
+      "Hash join",
+      "Sort-merge join",
+      "Index join"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the primary use of a GIST index?",
+    "options": [
+      "Equality comparisons",
+      "Geospatial data",
+      "Array operations",
+      "Full-text search"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which condition violates 2NF?",
+    "options": [
+      "Transitive dependency",
+      "Partial dependency",
+      "Multi-valued dependency",
+      "Join dependency"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the SELECTIVITY of a condition represent?",
+    "options": [
+      "Number of disk blocks accessed",
+      "Fraction of tuples satisfying the condition",
+      "Index height",
+      "Join order priority"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statement about BCNF is true?",
+    "options": [
+      "Allows partial dependencies",
+      "Requires all determinants to be superkeys",
+      "Permits transitive dependencies",
+      "Excludes foreign keys"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of the FOR loop in PL/pgSQL?",
+    "options": [
+      "Declare variables",
+      "Iterate over query results",
+      "Handle exceptions",
+      "Create temporary tables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which optimization technique combines Cross Product with Selection?",
+    "options": [
+      "Projection pushdown",
+      "Join elimination",
+      "Predicate pushdown",
+      "Convert to Join operation"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the default join algorithm in PostgreSQL?",
+    "options": [
+      "Hash Join",
+      "Nested-loop Join",
+      "Sort-Merge Join",
+      "Bitmap Join"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which index type uses a hash function?",
+    "options": [
+      "Primary index",
+      "Clustering index",
+      "Secondary index",
+      "Hash index"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What does the Boyce-Codd Normal Form (BCNF) eliminate?",
+    "options": [
+      "All functional dependencies",
+      "Non-trivial dependencies on non-superkeys",
+      "Multi-valued dependencies",
+      "Partial dependencies"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which phase of external sorting creates initial runs?",
+    "options": [
+      "Merging phase",
+      "Sorting phase",
+      "Partitioning phase",
+      "Indexing phase"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main drawback of secondary indexes?",
+    "options": [
+      "Increased storage space",
+      "Slower insert/update operations",
+      "Limited to equality checks",
+      "Cannot handle NULL values"
+    ],
+    "correct": 1
+  }
+]
