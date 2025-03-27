@@ -393,7 +393,7 @@ func (a *App) handleKeyDown(event *tcell.EventKey) {
 
 func (a *App) Run() {
 	for {
-		if a.State != file_search && a.CurrentQuestion > len(a.Questions) {
+		if a.State != file_search && a.CurrentQuestion >= len(a.Questions) {
 			break
 		}
 
