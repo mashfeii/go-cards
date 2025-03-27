@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the purpose of the FROM instruction in a Dockerfile?",
+    "options": [
+      "Defines the base image for the Docker image",
+      "Sets the working directory inside the container",
+      "Executes a command during the build process",
+      "Exposes a port for the container"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which instruction should you use to copy local files into a container transparently?",
+    "options": ["ADD", "COPY", "RUN", "EXPOSE"],
+    "correct": 1
+  },
+  {
+    "question": "What does the EXPOSE instruction do in a Dockerfile?",
+    "options": [
+      "Defines runtime environment variables",
+      "Specifies metadata about ports for inter-container communication",
+      "Copies files from the host to the container",
+      "Sets the default command to execute"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How does ENTRYPOINT differ from CMD in a Dockerfile?",
+    "options": [
+      "ENTRYPOINT defines default arguments, CMD sets the main command",
+      "ENTRYPOINT sets the main command, CMD provides default arguments",
+      "ENTRYPOINT exposes ports, CMD runs build commands",
+      "ENTRYPOINT is optional, CMD is mandatory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a benefit of copying files individually in a Dockerfile?",
+    "options": [
+      "Reduces image size",
+      "Ensures build cache is only invalidated for changed files",
+      "Speeds up container runtime",
+      "Eliminates the need for a base image"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What type of mount is used for data persistence managed by Docker?",
+    "options": ["Bind mount", "Volume", "tmpfs", "Host mount"],
+    "correct": 1
+  },
+  {
+    "question": "What is the default network driver in Docker?",
+    "options": ["Host", "None", "Bridge", "Overlay"],
+    "correct": 2
+  },
+  {
+    "question": "What does the 'depends_on' field in Docker Compose do?",
+    "options": [
+      "Specifies the image to build",
+      "Waits until another container runs before starting",
+      "Defines environment variables",
+      "Maps ports between host and container"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which Docker Compose command stops containers without removing them?",
+    "options": [
+      "docker-compose down",
+      "docker-compose stop",
+      "docker-compose up",
+      "docker-compose restart"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a limitation of Docker Compose compared to orchestration tools?",
+    "options": [
+      "It cannot manage multiple containers",
+      "It is limited to one host",
+      "It requires complex syntax",
+      "It cannot use volumes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In the Lab 9 FastAPI app, what does the SERVER_ID environment variable represent?",
+    "options": [
+      "Database connection string",
+      "Unique identifier for each FastAPI instance",
+      "Port number for the web service",
+      "Nginx load balancer address"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of the Nginx service in the Lab 9 Docker Compose setup?",
+    "options": [
+      "Serves the FastAPI application",
+      "Manages the PostgreSQL database",
+      "Balances load between FastAPI instances",
+      "Backs up the database periodically"
+    ],
+    "correct": 2
+  }
+]
