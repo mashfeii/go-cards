@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What are the primary purposes of Version Control Systems?",
+    "options": [
+      "Track changes, manage concurrent work, store code centrally, and enable DevOps",
+      "Compile code, debug errors, optimize performance, and deploy applications",
+      "Design user interfaces, manage databases, handle authentication, and monitor servers",
+      "Create backups, manage hardware resources, schedule tasks, and handle networking"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following is a distributed VCS?",
+    "options": ["Git", "Subversion", "Perforce", "Mercurial"],
+    "correct": 0
+  },
+  {
+    "question": "What does 'git add' do?",
+    "options": [
+      "Starts tracking files and adds them to the staging area",
+      "Commits changes directly to the remote repository",
+      "Creates a new branch",
+      "Deletes untracked files"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is stored in a Git commit object?",
+    "options": [
+      "Snapshot of changes, metadata, and parent commit link",
+      "Only the author's name and email",
+      "Binary large objects (BLOBs)",
+      "Hardware configuration details"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which Git object type stores the contents of a file?",
+    "options": ["Blob", "Tree", "Commit", "Tag"],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of 'git commit --amend'?",
+    "options": [
+      "Modify the last commit and its message",
+      "Delete the last commit",
+      "Create a new branch from the current commit",
+      "Merge two branches"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does a Git 'tag' represent?",
+    "options": [
+      "A static pointer to a specific commit",
+      "A moving pointer to the latest commit",
+      "A temporary workspace",
+      "A deleted branch"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What command creates and switches to a new branch?",
+    "options": [
+      "git checkout -b <branch_name>",
+      "git branch <branch_name>",
+      "git merge <branch_name>",
+      "git clone <branch_name>"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the main difference between 'merge' and 'rebase'?",
+    "options": [
+      "Merge preserves history, while rebase creates a linear history",
+      "Rebase preserves history, while merge creates a linear history",
+      "Merge deletes old commits, while rebase keeps them",
+      "Rebase is used only for remote repositories"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which strategy is part of GitFlow?",
+    "options": [
+      "Feature Branch Strategy",
+      "Zero Branch Strategy",
+      "Single Commit Strategy",
+      "Direct Deployment Strategy"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the primary goal of GitOps?",
+    "options": [
+      "Ensure correctness via Git-managed changes and reviews",
+      "Automatically deploy code without testing",
+      "Replace all CI/CD pipelines with manual processes",
+      "Focus solely on frontend development"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which Git command initializes a new repository?",
+    "options": ["git init", "git clone", "git commit", "git push"],
+    "correct": 0
+  },
+  {
+    "question": "What does the 'HEAD' in Git refer to?",
+    "options": [
+      "A reference to the current commit or branch",
+      "The remote repository's main branch",
+      "A deleted commit",
+      "A backup of the staging area"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which object type represents a directory in Git?",
+    "options": ["Tree", "Blob", "Commit", "Tag"],
+    "correct": 0
+  },
+  {
+    "question": "What is a key advantage of a distributed VCS?",
+    "options": [
+      "Nearly every operation is local",
+      "Requires constant internet connectivity",
+      "Centralized storage only",
+      "Limited platform support"
+    ],
+    "correct": 0
+  }
+]
